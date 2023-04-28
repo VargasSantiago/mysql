@@ -1,5 +1,8 @@
 services:
   - name: mysql
-  dockerfile: Dockerfile
-  env:
-    MYSQL_ROOT_PASSWORD: root
+    dockerfile: Dockerfile
+    env:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_USER: root
+      MYSQL_DATABASE: docker
+      MYSQL_PORT: 9000
